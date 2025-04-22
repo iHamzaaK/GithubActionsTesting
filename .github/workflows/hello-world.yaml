@@ -1,0 +1,12 @@
+name: Hello World
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-lates
+
+    steps:
+      - name: Say Hello
+        run: echo "Hello Hamza. welcome to github actions"
+
